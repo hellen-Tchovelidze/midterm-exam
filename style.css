@@ -120,20 +120,35 @@ body {
   justify-content: space-between;
   padding: 10px;
   align-items: center;
+  border-radius: 12px;
 }
 .iconebox {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: var(--Red, #F55);
-font-family: "Hanken Grotesk";
-font-size: 18px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+ 
 
 }
 .flashicon {
   width: 20px;
   height: 20px;
+}
+.paragraph3{
+  color: var(--Red, #F55);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.scor_number{
+  color: var(--Dark-Navy, #303B59);
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+}
+.max_scor{
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+color: gray;
 }
