@@ -152,3 +152,17 @@ font-style: normal;
 font-weight: 700;
 color: gray;
 }
+#bk_yellow{
+  background-color:rgb(240, 240, 181)
+}
+#color_yellow{
+  color: rgb(231, 181, 15);
+}
+#bk_green{
+  background-color: rgb(197, 247, 197);
+}
+#color_green{
+  color: green;
+}
+#bk_blu{background-color: rgb(146, 146, 242);}
+#color_blu{color: blue;}
