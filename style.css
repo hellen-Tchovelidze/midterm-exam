@@ -119,14 +119,25 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 10px;
-  align-items: center;
+ 
   border-radius: 12px;
+  flex-direction: column;
+
+ 
 }
 .iconebox {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
+  flex-direction: unset;
+  
  
+
+}
+.scorbox{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
 
 }
 .flashicon {
