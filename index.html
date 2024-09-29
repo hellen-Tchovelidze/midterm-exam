@@ -7,32 +7,31 @@
     <title>Document</title>
   </head>
   <body>
-
     <div class="container">
-      <header class="containerblu">
+      <header class="container_blu">
         <p class="paragraph">Your Result</p>
         <div class="circlebox">
-          <h1 class="heading">76</h1>
-          <p class="paragraph1">of 100</p>
+          <h1 class="numberof_score">76</h1>
+          <p class="numberofmax_score">of 100</p>
         </div>
-        <h2 class="heading2">Great</h2>
-        <p class="paragraph2">
+        <h2 class="result">Great</h2>
+        <p class="definition">
           Your performance exceeds 65% <br />
           of the people conducting the <br />
           test here!
         </p>
       </header>
 
-      <section>
+      <section class="boxsize">
         <h1 class="headingbox">Summary</h1>
         <div class="box">
-          <div class="iconebox">
+          <div class="icone_box">
             <img
-              src="./images/iconoir_flash.jpg"
-              alt="Flash icon representing reaction score"
-              class="flashicon"
+              src="./images/iconoir_flash (2).svg"
+              alt="Flash icon"
+              class="icone_size"
             />
-            <p class="paragraph3">Reaction</p>
+            <p class="icone_meaning" id="red">Reaction</p>
           </div>
           <div class="score_box">
             <p class="scor_number">80 <span class="max_scor">/100</span></p>
@@ -40,12 +39,13 @@
         </div>
 
         <div class="box" id="bk_yellow">
-          <div class="iconebox">
+          <div class="icone_box">
             <img
               src="./images/iconoir_brain.png"
               alt="Brain icon representing memory score"
+              class="icone_size"
             />
-            <p class="paragraph3" id="color_yellow">Memory</p>
+            <p class="icone_meaning" id="color_yellow">Memory</p>
           </div>
           <div>
             <p class="scor_number">92 <span class="max_scor">/100</span></p>
@@ -53,24 +53,26 @@
         </div>
 
         <div class="box" id="bk_green">
-          <div class="iconebox">
+          <div class="icone_box">
             <img
               src="./images/iconoir_chat-remove.png"
               alt="Chat icon representing verbal score"
+              class="icone_size"
             />
-            <p class="paragraph3" id="color_green">Verbal</p>
+            <p class="icone_meaning" id="color_green">Verbal</p>
           </div>
           <div>
             <p class="scor_number">61 <span class="max_scor">/100</span></p>
           </div>
         </div>
         <div class="box" id="bk_blu">
-          <div class="iconebox">
+          <div class="icone_box">
             <img
-              src="./images/the eye.png"
+              src="./images/iconoir_eye-empty (1).png"
               alt="Eye icon representing visual score"
+              class="icone_size"
             />
-            <p class="paragraph3" id="color_blu">Visual</p>
+            <p class="icone_meaning" id="color_blu">Visual</p>
           </div>
           <div>
             <p class="scor_number">73 <span class="max_scor">/100</span></p>
@@ -79,6 +81,5 @@
         <button>Continue</button>
       </section>
     </div>
-    
   </body>
 </html>
