@@ -5,6 +5,7 @@
 body {
   display: flex;
   width: 1440px;
+
   padding: 284px 352px;
   justify-content: center;
   align-items: center;
@@ -111,7 +112,7 @@ body {
   font-weight: 700;
   line-height: normal;
   display: flex;
-  margin-top: 35px;
+  margin-top: 10px;
   margin-left: 20px;
 }
 
