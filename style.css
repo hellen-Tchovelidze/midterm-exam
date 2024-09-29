@@ -124,6 +124,7 @@ body {
   justify-content: space-between;
   padding: 10px;
   border-radius: 12px;
+  align-items: center;
 }
 .icone_box {
   display: flex;
