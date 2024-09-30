@@ -160,25 +160,57 @@ body {
   color: gray;
 }
 #bk_red {
-  background-color: rgb(245, 196, 196);
+  background: var(
+    --red-95-white,
+    linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95) 0%,
+      rgba(255, 255, 255, 0.95) 100%
+    ),
+    #f55
+  );
 }
 #color_red {
   color: red;
 }
 #bk_yellow {
-  background-color: rgb(244, 244, 159);
+  background: var(
+    --yellow-95-white,
+    linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95) 0%,
+      rgba(255, 255, 255, 0.95) 100%
+    ),
+    #ffb21e
+  );
 }
 #color_yellow {
-  color: rgb(251, 194, 6);
+  color: #ffb21e;
 }
 #bk_green {
-  background-color: rgb(207, 238, 207);
+  background: var(
+    --green-95-white,
+    linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95) 0%,
+      rgba(255, 255, 255, 0.95) 100%
+    ),
+    #00bb8f
+  );
 }
 #color_green {
   color: green;
 }
 #bk_blu {
-  background-color: rgb(194, 194, 245);
+  background: var(
+    --blue-95-white,
+    linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95) 0%,
+      rgba(255, 255, 255, 0.95) 100%
+    ),
+    #1125d6
+  );
 }
 #color_blu {
   color: blue;
