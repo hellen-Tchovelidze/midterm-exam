@@ -4,9 +4,6 @@
 }
 body {
   display: flex;
-  width: 1440px;
-
-  padding: 284px 352px;
   justify-content: center;
   align-items: center;
   background: var(--Very-Light-blue, #ecf2ff);
